@@ -4,236 +4,208 @@
     <meta charset="UTF-8">
     <title>Guild Talent Outreach Portal</title>
     <style>
-        body { font-family: Arial, sans-serif; margin: 20px; }
-        h1 { color: #333; }
-        table { border-collapse: collapse; width: 100%; margin-top: 20px; }
-        th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
-        th { background-color: #f2f2f2; }
-        a { color: #0366d6; text-decoration: none; }
-        a:hover { text-decoration: underline; }
-        .email-snippet { max-width: 300px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+        body { font-family: Arial, sans-serif; margin: 20px; line-height: 1.6; color: #333; }
+        h1 { color: #2c3e50; border-bottom: 2px solid #eee; padding-bottom: 10px; }
+        .container { max-width: 1200px; margin: auto; }
+        table { border-collapse: collapse; width: 100%; margin-top: 20px; box-shadow: 0 1px 3px rgba(0,0,0,0.2); }
+        th, td { border: 1px solid #ddd; padding: 12px; text-align: left; }
+        th { background-color: #f8f9fa; font-weight: bold; color: #555; }
+        tr:nth-child(even) { background-color: #f9f9f9; }
+        tr:hover { background-color: #f1f1f1; }
+        a { color: #3498db; text-decoration: none; font-weight: 500; }
+        a:hover { text-decoration: underline; color: #2980b9; }
+        .email-snippet { font-size: 0.85em; color: #666; max-width: 250px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; display: block; }
+        .badge { display: inline-block; padding: 2px 8px; border-radius: 12px; font-size: 0.75em; font-weight: bold; text-transform: uppercase; margin-bottom: 4px; }
+        .badge-job { background-color: #e1f5fe; color: #01579b; }
+        .badge-li { background-color: #e8f5e9; color: #1b5e20; }
+        code { background-color: #f4f4f4; padding: 2px 4px; border-radius: 4px; font-size: 0.9em; color: #d63384; }
     </style>
 </head>
 <body>
-    <h1>🎯 Guild Talent Outreach Portal</h1>
-    <p><strong>Generated:</strong> 2026-02-05</p>
-    <p>This portal contains job links, LinkedIn profiles, and email drafts for the 15 qualified leads.</p>
-    <table>
-        <thead>
-            <tr>
-                <th>Company</th>
-                <th>Job Title</th>
-                <th>Job Link</th>
-                <th>LinkedIn Profile</th>
-                <th>Hiring Manager Email Subject</th>
-                <th>Hiring Manager Email Snippet</th>
-                <th>Intro Request Subject</th>
-                <th>Intro Request Snippet</th>
-                <th>"Do You Know" Subject</th>
-                <th>"Do You Know" Snippet</th>
-            </tr>
-        </thead>
-        <tbody><tr>
-                <td><strong>Saltbox</strong></td>
-                <td>Director of Operations</td>
-                <td><a href="https://job-boards.greenhouse.io/saltbox/jobs/5730893004" target="_blank">View Job</a></td>
-                <td><a href="https://linkedin.com/in/lucy-voss" target="_blank">LinkedIn</a></td>
-                <td><code>Quick question about Director of Operations role at Saltbox</code></td>
-                <td class="email-snippet">Hi /in/lucy,\nHope you’re doing well. I saw Saltbox is hiring a Director of Operations and since the role reports to you, I figured I’d reach out directly.\nGuild Talent (https://guildtalent.com/)...</td>
-                <td><code>Intro request: Director of Operations at Saltbox</code></td>
-                <td class="email-snippet">Hey lucy,\nHope you're doing well! I saw Saltbox is hiring a Director of Operations. Looks like it reports into /in/lucy, or do you happen to know who is in charge of hiring for this position?\nTh...</td>
-                <td><code>Do you know /in/lucy @Saltbox?</code></td>
-                <td class="email-snippet">hey hey\n/in/lucy is hiring a Director of Operations which is right up our alley and I just saw you're connected. Any chance you know them well enough to intro? I can write a more formal email if so...</td>
-            </tr><tr>
-                <td><strong>Dscout</strong></td>
-                <td>Director, Revenue Operations</td>
-                <td><a href="https://job-boards.greenhouse.io/dscout/jobs/4092177009" target="_blank">View Job</a></td>
-                <td><a href="https://www.linkedin.com/in/jaymie-wahlen-06963a23/" target="_blank">LinkedIn</a></td>
-                <td><code>Quick question about Director, Revenue Operations role at Dscout</code></td>
-                <td class="email-snippet">Hi /in/jaymie,\nHope you’re doing well. I saw Dscout is hiring a Director, Revenue Operations and since the role reports to you, I figured I’d reach out directly.\nGuild Talent (https://guildtalen...</td>
-                <td><code>Intro request: Director, Revenue Operations at Dscout</code></td>
-                <td class="email-snippet">Hey jaymie.wahlen,\nHope you're doing well! I saw Dscout is hiring a Director, Revenue Operations. Looks like it reports into /in/jaymie, or do you happen to know who is in charge of hiring for this...</td>
-                <td><code>Do you know /in/jaymie @Dscout?</code></td>
-                <td class="email-snippet">hey hey\n/in/jaymie is hiring a Director, Revenue Operations which is right up our alley and I just saw you're connected. Any chance you know them well enough to intro? I can write a more formal ema...</td>
-            </tr><tr>
-                <td><strong>Sesame</strong></td>
-                <td>Corporate Controller</td>
-                <td><a href="https://jobs.lever.co/sesame/9c05b194-cd8a-4623-802d-a77155e72562" target="_blank">View Job</a></td>
-                <td><a href="https://www.linkedin.com/in/david-goldhill-5bb1a238/" target="_blank">LinkedIn</a></td>
-                <td><code>Quick question about Corporate Controller role at Sesame</code></td>
-                <td class="email-snippet">Hi /in/david,\nHope you’re doing well. I saw Sesame is hiring a Corporate Controller and since the role reports to you, I figured I’d reach out directly.\nGuild Talent (https://guildtalent.com/) i...</td>
-                <td><code>Intro request: Corporate Controller at Sesame</code></td>
-                <td class="email-snippet">Hey dgoldhill,\nHope you're doing well! I saw Sesame is hiring a Corporate Controller. Looks like it reports into /in/david, or do you happen to know who is in charge of hiring for this position?\n...</td>
-                <td><code>Do you know /in/david @Sesame?</code></td>
-                <td class="email-snippet">hey hey\n/in/david is hiring a Corporate Controller which is right up our alley and I just saw you're connected. Any chance you know them well enough to intro? I can write a more formal email if so!...</td>
-            </tr><tr>
-                <td><strong>WorkWhile</strong></td>
-                <td>Corporate Controller</td>
-                <td><a href="https://jobs.ashbyhq.com/workwhilejobs/fd0ef99b-3310-4cce-8943-9409f6feae3f" target="_blank">View Job</a></td>
-                <td><a href="https://www.linkedin.com/in/madhujagannathan/" target="_blank">LinkedIn</a></td>
-                <td><code>Quick question about Corporate Controller role at WorkWhile</code></td>
-                <td class="email-snippet">Hi /in/madhujagannathan,\nHope you’re doing well. I saw WorkWhile is hiring a Corporate Controller and since the role reports to you, I figured I’d reach out directly.\nGuild Talent (https://guild...</td>
-                <td><code>Intro request: Corporate Controller at WorkWhile</code></td>
-                <td class="email-snippet">Hey madhu,\nHope you're doing well! I saw WorkWhile is hiring a Corporate Controller. Looks like it reports into /in/madhujagannathan, or do you happen to know who is in charge of hiring for this po...</td>
-                <td><code>Do you know /in/madhujagannathan @WorkWhile?</code></td>
-                <td class="email-snippet">hey hey\n/in/madhujagannathan is hiring a Corporate Controller which is right up our alley and I just saw you're connected. Any chance you know them well enough to intro? I can write a more formal e...</td>
-            </tr><tr>
-                <td><strong>Firefly Health</strong></td>
-                <td>Vice President, Operations</td>
-                <td><a href="https://apply.workable.com/firefly-health/j/0C5C173899/" target="_blank">View Job</a></td>
-                <td><a href="https://www.linkedin.com/in/fay-rotenberg-4a87951b6/" target="_blank">LinkedIn</a></td>
-                <td><code>Quick question about Vice President, Operations role at Firefly Health</code></td>
-                <td class="email-snippet">Hi /in/fay,\nHope you’re doing well. I saw Firefly Health is hiring a Vice President, Operations and since the role reports to you, I figured I’d reach out directly.\nGuild Talent (https://guildta...</td>
-                <td><code>Intro request: Vice President, Operations at Firefly Health</code></td>
-                <td class="email-snippet">Hey fay.rotenberg,\nHope you're doing well! I saw Firefly Health is hiring a Vice President, Operations. Looks like it reports into /in/fay, or do you happen to know who is in charge of hiring for t...</td>
-                <td><code>Do you know /in/fay @Firefly Health?</code></td>
-                <td class="email-snippet">hey hey\n/in/fay is hiring a Vice President, Operations which is right up our alley and I just saw you're connected. Any chance you know them well enough to intro? I can write a more formal email if...</td>
-            </tr><tr>
-                <td><strong>Moloco </strong></td>
-                <td>Director, FP&A</td>
-                <td><a href="https://job-boards.greenhouse.io/moloco/jobs/7607148003" target="_blank">View Job</a></td>
-                <td><a href="https://www.linkedin.com/in/brandon-maultasch-444779b/" target="_blank">LinkedIn</a></td>
-                <td><code>Quick question about Director, FP&A role at Moloco </code></td>
-                <td class="email-snippet">Hi /in/brandon,\nHope you’re doing well. I saw Moloco  is hiring a Director, FP&A and since the role reports to you, I figured I’d reach out directly.\nGuild Talent (https://guildtalent.com/) is a...</td>
-                <td><code>Intro request: Director, FP&A at Moloco </code></td>
-                <td class="email-snippet">Hey bmaultasch,\nHope you're doing well! I saw Moloco  is hiring a Director, FP&A. Looks like it reports into /in/brandon, or do you happen to know who is in charge of hiring for this position?\nT...</td>
-                <td><code>Do you know /in/brandon @Moloco ?</code></td>
-                <td class="email-snippet">hey hey\n/in/brandon is hiring a Director, FP&A which is right up our alley and I just saw you're connected. Any chance you know them well enough to intro? I can write a more formal email if so!...</td>
-            </tr><tr>
-                <td><strong>Immunome</strong></td>
-                <td>Senior Director/Director, FP&A and R&D Finance</td>
-                <td><a href="https://job-boards.greenhouse.io/immunomeinc/jobs/5097359008" target="_blank">View Job</a></td>
-                <td><a href="https://www.linkedin.com/in/sean-smith-cpa-a8733072/" target="_blank">LinkedIn</a></td>
-                <td><code>Quick question about Senior Director/Director, FP&A and R&D Finance role at Immunome</code></td>
-                <td class="email-snippet">Hi /in/sean,\nHope you’re doing well. I saw Immunome is hiring a Senior Director/Director, FP&A and R&D Finance and since the role reports to you, I figured I’d reach out directly.\nGuild Talent (...</td>
-                <td><code>Intro request: Senior Director/Director, FP&A and R&D Finance at Immunome</code></td>
-                <td class="email-snippet">Hey ssmith,\nHope you're doing well! I saw Immunome is hiring a Senior Director/Director, FP&A and R&D Finance. Looks like it reports into /in/sean, or do you happen to know who is in charge of hiri...</td>
-                <td><code>Do you know /in/sean @Immunome?</code></td>
-                <td class="email-snippet">hey hey\n/in/sean is hiring a Senior Director/Director, FP&A and R&D Finance which is right up our alley and I just saw you're connected. Any chance you know them well enough to intro? I can write a...</td>
-            </tr><tr>
-                <td><strong>Yondr</strong></td>
-                <td>Assistant Controller</td>
-                <td><a href="https://jobs.ashbyhq.com/yondr/b9b412a9-bc4c-48e1-ab3d-8e447c10f57b" target="_blank">View Job</a></td>
-                <td><a href="https://www.linkedin.com/in/lmgallant/" target="_blank">LinkedIn</a></td>
-                <td><code>Quick question about Assistant Controller role at Yondr</code></td>
-                <td class="email-snippet">Hi /in/lmgallant,\nHope you’re doing well. I saw Yondr is hiring a Assistant Controller and since the role reports to you, I figured I’d reach out directly.\nGuild Talent (https://guildtalent.com/...</td>
-                <td><code>Intro request: Assistant Controller at Yondr</code></td>
-                <td class="email-snippet">Hey laura,\nHope you're doing well! I saw Yondr is hiring a Assistant Controller. Looks like it reports into /in/lmgallant, or do you happen to know who is in charge of hiring for this position?\n...</td>
-                <td><code>Do you know /in/lmgallant @Yondr?</code></td>
-                <td class="email-snippet">hey hey\n/in/lmgallant is hiring a Assistant Controller which is right up our alley and I just saw you're connected. Any chance you know them well enough to intro? I can write a more formal email if...</td>
-            </tr><tr>
-                <td><strong>Raptor Technologies</strong></td>
-                <td>Senior Director, FP&A - Revenue Operations</td>
-                <td><a href="https://job-boards.greenhouse.io/raptortechnologies/jobs/5043315008" target="_blank">View Job</a></td>
-                <td><a href="https://www.linkedin.com/in/james-tretheway-7a7a9126/" target="_blank">LinkedIn</a></td>
-                <td><code>Quick question about Senior Director, FP&A - Revenue Operations role at Raptor Technologies</code></td>
-                <td class="email-snippet">Hi /in/james,\nHope you’re doing well. I saw Raptor Technologies is hiring a Senior Director, FP&A - Revenue Operations and since the role reports to you, I figured I’d reach out directly.\nGuild ...</td>
-                <td><code>Intro request: Senior Director, FP&A - Revenue Operations at Raptor Technologies</code></td>
-                <td class="email-snippet">Hey jtretheway,\nHope you're doing well! I saw Raptor Technologies is hiring a Senior Director, FP&A - Revenue Operations. Looks like it reports into /in/james, or do you happen to know who is in ch...</td>
-                <td><code>Do you know /in/james @Raptor Technologies?</code></td>
-                <td class="email-snippet">hey hey\n/in/james is hiring a Senior Director, FP&A - Revenue Operations which is right up our alley and I just saw you're connected. Any chance you know them well enough to intro? I can write a mo...</td>
-            </tr><tr>
-                <td><strong>Lynx </strong></td>
-                <td>Director, FP&A</td>
-                <td><a href="https://ats.rippling.com/lynx-software-technologies/jobs/33a8fbed-7df1-47c2-91a4-02a943b1146b" target="_blank">View Job</a></td>
-                <td><a href="https://www.linkedin.com/in/amanda-b-50a2a323/" target="_blank">LinkedIn</a></td>
-                <td><code>Quick question about Director, FP&A role at Lynx </code></td>
-                <td class="email-snippet">Hi /in/amanda,\nHope you’re doing well. I saw Lynx  is hiring a Director, FP&A and since the role reports to you, I figured I’d reach out directly.\nGuild Talent (https://guildtalent.com/) is a bo...</td>
-                <td><code>Intro request: Director, FP&A at Lynx </code></td>
-                <td class="email-snippet">Hey abowdoin,\nHope you're doing well! I saw Lynx  is hiring a Director, FP&A. Looks like it reports into /in/amanda, or do you happen to know who is in charge of hiring for this position?\nThis o...</td>
-                <td><code>Do you know /in/amanda @Lynx ?</code></td>
-                <td class="email-snippet">hey hey\n/in/amanda is hiring a Director, FP&A which is right up our alley and I just saw you're connected. Any chance you know them well enough to intro? I can write a more formal email if so!...</td>
-            </tr><tr>
-                <td><strong>Weee!</strong></td>
-                <td>VP/Senior VP of Operations</td>
-                <td><a href="https://job-boards.greenhouse.io/weee/jobs/7608041003" target="_blank">View Job</a></td>
-                <td><a href="https://www.linkedin.com/in/julie-fan-120207120/" target="_blank">LinkedIn</a></td>
-                <td><code>Quick question about VP/Senior VP of Operations role at Weee!</code></td>
-                <td class="email-snippet">Hi /in/julie,\nHope you’re doing well. I saw Weee! is hiring a VP/Senior VP of Operations and since the role reports to you, I figured I’d reach out directly.\nGuild Talent (https://guildtalent.co...</td>
-                <td><code>Intro request: VP/Senior VP of Operations at Weee!</code></td>
-                <td class="email-snippet">Hey julief,\nHope you're doing well! I saw Weee! is hiring a VP/Senior VP of Operations. Looks like it reports into /in/julie, or do you happen to know who is in charge of hiring for this position?\n...</td>
-                <td><code>Do you know /in/julie @Weee!?</code></td>
-                <td class="email-snippet">hey hey\n/in/julie is hiring a VP/Senior VP of Operations which is right up our alley and I just saw you're connected. Any chance you know them well enough to intro? I can write a more formal email ...</td>
-            </tr><tr>
-                <td><strong>Affinity.co</strong></td>
-                <td>Vice President, Revenue Operations</td>
-                <td><a href="https://ats.rippling.com/supernova-technology/jobs/839acb45-cc0f-498d-9bf6-74fec7846649" target="_blank">View Job</a></td>
-                <td><a href="https://www.linkedin.com/in/jeffreyfinn/" target="_blank">LinkedIn</a></td>
-                <td><code>Quick question about Vice President, Revenue Operations role at Affinity.co</code></td>
-                <td class="email-snippet">Hi Hiring,\nYou probably get this often, but your background caught my eye.\nI'm a recruiter at Guild Talent. I'm reaching out because I think that with your experience in Vice President, Revenue ...</td>
-                <td><code>Intro request: Vice President, Revenue Operations at Affinity.co</code></td>
-                <td class="email-snippet">Hey Hiring,\nHope you're doing well! I saw Affinity.co is hiring a Vice President, Revenue Operations......</td>
-                <td><code>Do you know Hiring @Affinity.co?</code></td>
-                <td class="email-snippet">Hey!\nI saw Affinity.co is hiring a Vice President, Revenue Operations......</td>
-            </tr><tr>
-                <td><strong>Bluefish</strong></td>
-                <td>Director of Finance</td>
-                <td><a href="https://job-boards.greenhouse.io/evergreennephrology/jobs/4655077005" target="_blank">View Job</a></td>
-                <td><a href="https://www.linkedin.com/in/june-choong-75807336/" target="_blank">LinkedIn</a></td>
-                <td><code>Quick question about Director of Finance role at Bluefish</code></td>
-                <td class="email-snippet">Hi /in/alsherman,\nHope you’re doing well. I saw Bluefish is hiring a Director of Finance and since the role reports to you, I figured I’d reach out directly.\nGuild Talent (https://guildtalent.co...</td>
-                <td><code>Intro request: Director of Finance at Bluefish</code></td>
-                <td class="email-snippet">Hey alsherman,\nHope you're doing well! I saw Bluefish is hiring a Director of Finance. Looks like it reports into /in/alsherman, or do you happen to know who is in charge of hiring for this positio...</td>
-                <td><code>Do you know /in/alsherman @Bluefish?</code></td>
-                <td class="email-snippet">hey hey\n/in/alsherman is hiring a Director of Finance which is right up our alley and I just saw you're connected. Any chance you know them well enough to intro? I can write a more formal email if ...</td>
-            </tr><tr>
-                <td><strong>Wizard AI</strong></td>
-                <td>Director, Finance</td>
-                <td><a href="https://zeus-fire-and-security.breezy.hr/p/a45759219c5b-finance-director" target="_blank">View Job</a></td>
-                <td><a href="https://www.linkedin.com/in/stephen-andrews-211ba38/" target="_blank">LinkedIn</a></td>
-                <td><code>Quick question about Director, Finance role at Wizard AI</code></td>
-                <td class="email-snippet">Hi /in/melissabridgeford,\nHope you’re doing well. I saw Wizard AI is hiring a Director, Finance and since the role reports to you, I figured I’d reach out directly.\nGuild Talent (https://guildta...</td>
-                <td><code>Intro request: Director, Finance at Wizard AI</code></td>
-                <td class="email-snippet">Hey melissabridgeford,\nHope you're doing well! I saw Wizard AI is hiring a Director, Finance. Looks like it reports into /in/melissabridgeford, or do you happen to know who is in charge of hiring f...</td>
-                <td><code>Do you know /in/melissabridgeford @Wizard AI?</code></td>
-                <td class="email-snippet">hey hey\n/in/melissabridgeford is hiring a Director, Finance which is right up our alley and I just saw you're connected. Any chance you know them well enough to intro? I can write a more formal ema...</td>
-            </tr><tr>
-                <td><strong>Tomo</strong></td>
-                <td>Director, Strategic Finance</td>
-                <td><a href="https://harborglobal.com/careers/jobs/director--finance-systems-technology-4999016007/" target="_blank">View Job</a></td>
-                <td><a href="https://www.linkedin.com/in/jae-cornelssen-cpa-ca-cfa-4698a0104/" target="_blank">LinkedIn</a></td>
-                <td><code>Quick question about Director, Strategic Finance role at Tomo</code></td>
-                <td class="email-snippet">Hi /in/guthriepaterson,\nHope you’re doing well. I saw Tomo is hiring a Director, Strategic Finance and since the role reports to you, I figured I’d reach out directly.\nGuild Talent (https://guil...</td>
-                <td><code>Intro request: Director, Strategic Finance at Tomo</code></td>
-                <td class="email-snippet">Hey guthriepaterson,\nHope you're doing well! I saw Tomo is hiring a Director, Strategic Finance. Looks like it reports into /in/guthriepaterson, or do you happen to know who is in charge of hiring ...</td>
-                <td><code>Do you know /in/guthriepaterson @Tomo?</code></td>
-                <td class="email-snippet">hey hey\n/in/guthriepaterson is hiring a Director, Strategic Finance which is right up our alley and I just saw you're connected. Any chance you know them well enough to intro? I can write a more fo...</td>
-            </tr><tr>
-                <td><strong>Nuvalent</strong></td>
-                <td>Associate Director, Financial Planning and Analysis (FP&A)</td>
-                <td><a href="https://nuvalent.com/jobs?gh_jid=5785955004" target="_blank">View Job</a></td>
-                <td><a href="https://www.linkedin.com/in/brenda-vienneau-81128a2/" target="_blank">LinkedIn</a></td>
-                <td><code>Quick question about Associate Director, Financial Planning and Analysis (FP&A) role at Nuvalent</code></td>
-                <td class="email-snippet">Hi /in/Brenda,\nHope you’re doing well. I saw Nuvalent is hiring a Associate Director, Financial Planning and Analysis (FP&A) and since the role reports to you, I figured I’d reach out directly.\n...</td>
-                <td><code>Intro request: Associate Director, Financial Planning and Analysis (FP&A) at Nuvalent</code></td>
-                <td class="email-snippet">Hey Brenda,\nHope you're doing well! I saw Nuvalent is hiring a Associate Director, Financial Planning and Analysis (FP&A). Looks like it reports into /in/Brenda, or do you happen to know who is in ...</td>
-                <td><code>Do you know /in/Brenda @Nuvalent?</code></td>
-                <td class="email-snippet">Hey!\nI saw Nuvalent is hiring a Associate Director, Financial Planning and Analysis (FP&A). It looks like it reports into /in/Brenda. Do you know them? Or know who the hiring manager is?\nThis on...</td>
-            </tr><tr>
-                <td><strong>Ottimate /Plate IQ</strong></td>
-                <td>Director of Financial Planning & Analysis (FP&A)</td>
-                <td><a href="https://apply.workable.com/ottimate/j/76E390AE5D/" target="_blank">View Job</a></td>
-                <td><a href="https://www.linkedin.com/in/dan-kim-34619/" target="_blank">LinkedIn</a></td>
-                <td><code>Quick question about Director of Financial Planning & Analysis (FP&A) role at Ottimate /Plate IQ</code></td>
-                <td class="email-snippet">Hi /in/Dan,\nHope you’re doing well. I saw Ottimate /Plate IQ is hiring a Director of Financial Planning & Analysis (FP&A) and since the role reports to you, I figured I’d reach out directly.\nGui...</td>
-                <td><code>Intro request: Director of Financial Planning & Analysis (FP&A) at Ottimate /Plate IQ</code></td>
-                <td class="email-snippet">Hey Dan,\nHope you're doing well! I saw Ottimate /Plate IQ is hiring a Director of Financial Planning & Analysis (FP&A). Looks like it reports into /in/Dan, or do you happen to know who is in charge...</td>
-                <td><code>Do you know /in/Dan @Ottimate /Plate IQ?</code></td>
-                <td class="email-snippet">Hey!\nI saw Ottimate /Plate IQ is hiring a Director of Financial Planning & Analysis (FP&A). It looks like it reports into /in/Dan. Do you know them? Or know who the hiring manager is?\nThis one i...</td>
-            </tr><tr>
-                <td><strong>Inversion  </strong></td>
-                <td>Head of Finance</td>
-                <td><a href="https://jobs.ashbyhq.com/inversion-cap/64137bb3-39c2-4df8-b212-2f1e2169b9f3?utm_source=xWyaWblZlz" target="_blank">View Job</a></td>
-                <td><a href="https://www.linkedin.com/in/santiago-rs/?originalSubdomain=mc" target="_blank">LinkedIn</a></td>
-                <td><code>Quick question about Head of Finance role at Inversion  </code></td>
-                <td class="email-snippet">Hi /in/Santiago,\nHope you’re doing well. I saw Inversion   is hiring a Head of Finance and since the role reports to you, I figured I’d reach out directly.\nGuild Talent (https://guildtalent.com/...</td>
-                <td><code>Intro request: Head of Finance at Inversion  </code></td>
-                <td class="email-snippet">Hey Santiago,\nHope you're doing well! I saw Inversion   is hiring a Head of Finance. Looks like it reports into /in/Santiago, or do you happen to know who is in charge of hiring for this position?\n...</td>
-                <td><code>Do you know /in/Santiago @Inversion  ?</code></td>
-                <td class="email-snippet">Hey!\nI saw Inversion   is hiring a Head of Finance. It looks like it reports into /in/Santiago. Do you know them? Or know who the hiring manager is?\nThis one is in Guild Talent's sweet spot so i...</td>
-            </tr>
-        </tbody>
-    </table>
-    <p><em>Note: Email snippets truncated. Full drafts available in the attached CSV.</em></p>
+    <div class="container">
+        <h1>🎯 Guild Talent Outreach Portal</h1>
+        <p><strong>Last Updated:</strong> 2026-02-05</p>
+        <p>Centralized dashboard for job links, LinkedIn profiles, and outreach drafts for 15 qualified leads.</p>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Company</th>
+                    <th>Job Title</th>
+                    <th>Quick Links</th>
+                    <th>HM Outreach</th>
+                    <th>Intro Request</th>
+                    <th>"Do You Know"</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Saltbox</strong></td>
+                    <td>Director of Operations</td>
+                    <td>
+                        <a href="https://job-boards.greenhouse.io/saltbox/jobs/5730893004" target="_blank" class="badge badge-job">Job Post</a><br>
+                        <a href="https://linkedin.com/in/lucy-voss" target="_blank" class="badge badge-li">HM LinkedIn</a>
+                    </td>
+                    <td><code>Quick question...</code><br><span class="email-snippet">Hi /in/lucy, Hope you’re doing well...</span></td>
+                    <td><code>Intro request...</code><br><span class="email-snippet">Hey lucy, Hope you're doing well...</span></td>
+                    <td><code>Do you know...</code><br><span class="email-snippet">hey hey, /in/lucy is hiring...</span></td>
+                </tr>
+                <tr>
+                    <td><strong>Dscout</strong></td>
+                    <td>Director, Revenue Operations</td>
+                    <td>
+                        <a href="https://job-boards.greenhouse.io/dscout/jobs/4092177009" target="_blank" class="badge badge-job">Job Post</a><br>
+                        <a href="https://www.linkedin.com/in/jaymie-wahlen-06963a23/" target="_blank" class="badge badge-li">HM LinkedIn</a>
+                    </td>
+                    <td><code>Quick question...</code><br><span class="email-snippet">Hi /in/jaymie, Hope you’re doing well...</span></td>
+                    <td><code>Intro request...</code><br><span class="email-snippet">Hey jaymie.wahlen, Hope you're doing well...</span></td>
+                    <td><code>Do you know...</code><br><span class="email-snippet">hey hey, /in/jaymie is hiring...</span></td>
+                </tr>
+                <tr>
+                    <td><strong>Sesame</strong></td>
+                    <td>Corporate Controller</td>
+                    <td>
+                        <a href="https://jobs.lever.co/sesame/9c05b194-cd8a-4623-802d-a77155e72562" target="_blank" class="badge badge-job">Job Post</a><br>
+                        <a href="https://www.linkedin.com/in/david-goldhill-5bb1a238/" target="_blank" class="badge badge-li">HM LinkedIn</a>
+                    </td>
+                    <td><code>Quick question...</code><br><span class="email-snippet">Hi /in/david, Hope you’re doing well...</span></td>
+                    <td><code>Intro request...</code><br><span class="email-snippet">Hey dgoldhill, Hope you're doing well...</span></td>
+                    <td><code>Do you know...</code><br><span class="email-snippet">hey hey, /in/david is hiring...</span></td>
+                </tr>
+                <tr>
+                    <td><strong>WorkWhile</strong></td>
+                    <td>Corporate Controller</td>
+                    <td>
+                        <a href="https://jobs.ashbyhq.com/workwhilejobs/fd0ef99b-3310-4cce-8943-9409f6feae3f" target="_blank" class="badge badge-job">Job Post</a><br>
+                        <a href="https://www.linkedin.com/in/madhujagannathan/" target="_blank" class="badge badge-li">HM LinkedIn</a>
+                    </td>
+                    <td><code>Quick question...</code><br><span class="email-snippet">Hi /in/madhujagannathan, Hope you’re doing well...</span></td>
+                    <td><code>Intro request...</code><br><span class="email-snippet">Hey madhu, Hope you're doing well...</span></td>
+                    <td><code>Do you know...</code><br><span class="email-snippet">hey hey, /in/madhujagannathan is hiring...</span></td>
+                </tr>
+                <tr>
+                    <td><strong>Firefly Health</strong></td>
+                    <td>Vice President, Operations</td>
+                    <td>
+                        <a href="https://apply.workable.com/firefly-health/j/0C5C173899/" target="_blank" class="badge badge-job">Job Post</a><br>
+                        <a href="https://www.linkedin.com/in/fay-rotenberg-4a87951b6/" target="_blank" class="badge badge-li">HM LinkedIn</a>
+                    </td>
+                    <td><code>Quick question...</code><br><span class="email-snippet">Hi /in/fay, Hope you’re doing well...</span></td>
+                    <td><code>Intro request...</code><br><span class="email-snippet">Hey fay.rotenberg, Hope you're doing well...</span></td>
+                    <td><code>Do you know...</code><br><span class="email-snippet">hey hey, /in/fay is hiring...</span></td>
+                </tr>
+                <tr>
+                    <td><strong>Moloco</strong></td>
+                    <td>Director, FP&A</td>
+                    <td>
+                        <a href="https://job-boards.greenhouse.io/moloco/jobs/7607148003" target="_blank" class="badge badge-job">Job Post</a><br>
+                        <a href="https://www.linkedin.com/in/brandon-maultasch-444779b/" target="_blank" class="badge badge-li">HM LinkedIn</a>
+                    </td>
+                    <td><code>Quick question...</code><br><span class="email-snippet">Hi /in/brandon, Hope you’re doing well...</span></td>
+                    <td><code>Intro request...</code><br><span class="email-snippet">Hey bmaultasch, Hope you're doing well...</span></td>
+                    <td><code>Do you know...</code><br><span class="email-snippet">hey hey, /in/brandon is hiring...</span></td>
+                </tr>
+                <tr>
+                    <td><strong>Immunome</strong></td>
+                    <td>Senior Director/Director, FP&A</td>
+                    <td>
+                        <a href="https://job-boards.greenhouse.io/immunomeinc/jobs/5097359008" target="_blank" class="badge badge-job">Job Post</a><br>
+                        <a href="https://www.linkedin.com/in/sean-smith-cpa-a8733072/" target="_blank" class="badge badge-li">HM LinkedIn</a>
+                    </td>
+                    <td><code>Quick question...</code><br><span class="email-snippet">Hi /in/sean, Hope you’re doing well...</span></td>
+                    <td><code>Intro request...</code><br><span class="email-snippet">Hey ssmith, Hope you're doing well...</span></td>
+                    <td><code>Do you know...</code><br><span class="email-snippet">hey hey, /in/sean is hiring...</span></td>
+                </tr>
+                <tr>
+                    <td><strong>Yondr</strong></td>
+                    <td>Assistant Controller</td>
+                    <td>
+                        <a href="https://jobs.ashbyhq.com/yondr/b9b412a9-bc4c-48e1-ab3d-8e447c10f57b" target="_blank" class="badge badge-job">Job Post</a><br>
+                        <a href="https://www.linkedin.com/in/lmgallant/" target="_blank" class="badge badge-li">HM LinkedIn</a>
+                    </td>
+                    <td><code>Quick question...</code><br><span class="email-snippet">Hi /in/lmgallant, Hope you’re doing well...</span></td>
+                    <td><code>Intro request...</code><br><span class="email-snippet">Hey laura, Hope you're doing well...</span></td>
+                    <td><code>Do you know...</code><br><span class="email-snippet">hey hey, /in/lmgallant is hiring...</span></td>
+                </tr>
+                <tr>
+                    <td><strong>Raptor Technologies</strong></td>
+                    <td>Senior Director, FP&A</td>
+                    <td>
+                        <a href="https://job-boards.greenhouse.io/raptortechnologies/jobs/5043315008" target="_blank" class="badge badge-job">Job Post</a><br>
+                        <a href="https://www.linkedin.com/in/james-tretheway-7a7a9126/" target="_blank" class="badge badge-li">HM LinkedIn</a>
+                    </td>
+                    <td><code>Quick question...</code><br><span class="email-snippet">Hi /in/james, Hope you’re doing well...</span></td>
+                    <td><code>Intro request...</code><br><span class="email-snippet">Hey jtretheway, Hope you're doing well...</span></td>
+                    <td><code>Do you know...</code><br><span class="email-snippet">hey hey, /in/james is hiring...</span></td>
+                </tr>
+                <tr>
+                    <td><strong>Lynx</strong></td>
+                    <td>Director, FP&A</td>
+                    <td>
+                        <a href="https://ats.rippling.com/lynx-software-technologies/jobs/33a8fbed-7df1-47c2-91a4-02a943b1146b" target="_blank" class="badge badge-job">Job Post</a><br>
+                        <a href="https://www.linkedin.com/in/amanda-b-50a2a323/" target="_blank" class="badge badge-li">HM LinkedIn</a>
+                    </td>
+                    <td><code>Quick question...</code><br><span class="email-snippet">Hi /in/amanda, Hope you’re doing well...</span></td>
+                    <td><code>Intro request...</code><br><span class="email-snippet">Hey abowdoin, Hope you're doing well...</span></td>
+                    <td><code>Do you know...</code><br><span class="email-snippet">hey hey, /in/amanda is hiring...</span></td>
+                </tr>
+                <tr>
+                    <td><strong>Weee!</strong></td>
+                    <td>VP/Senior VP of Operations</td>
+                    <td>
+                        <a href="https://job-boards.greenhouse.io/weee/jobs/7608041003" target="_blank" class="badge badge-job">Job Post</a><br>
+                        <a href="https://www.linkedin.com/in/julie-fan-120207120/" target="_blank" class="badge badge-li">HM LinkedIn</a>
+                    </td>
+                    <td><code>Quick question...</code><br><span class="email-snippet">Hi /in/julie, Hope you’re doing well...</span></td>
+                    <td><code>Intro request...</code><br><span class="email-snippet">Hey julief, Hope you're doing well...</span></td>
+                    <td><code>Do you know...</code><br><span class="email-snippet">hey hey, /in/julie is hiring...</span></td>
+                </tr>
+                <tr>
+                    <td><strong>Affinity.co</strong></td>
+                    <td>VP, Revenue Operations</td>
+                    <td>
+                        <a href="https://ats.rippling.com/supernova-technology/jobs/839acb45-cc0f-498d-9bf6-74fec7846649" target="_blank" class="badge badge-job">Job Post</a><br>
+                        <a href="https://www.linkedin.com/in/jeffreyfinn/" target="_blank" class="badge badge-li">HM LinkedIn</a>
+                    </td>
+                    <td><code>Quick question...</code><br><span class="email-snippet">Hi Hiring, Your background caught my eye...</span></td>
+                    <td><code>Intro request...</code><br><span class="email-snippet">Hey Hiring, Hope you're doing well...</span></td>
+                    <td><code>Do you know...</code><br><span class="email-snippet">Hey! I saw Affinity.co is hiring...</span></td>
+                </tr>
+                <tr>
+                    <td><strong>Bluefish</strong></td>
+                    <td>Director of Finance</td>
+                    <td>
+                        <a href="https://job-boards.greenhouse.io/evergreennephrology/jobs/4655077005" target="_blank" class="badge badge-job">Job Post</a><br>
+                        <a href="https://www.linkedin.com/in/june-choong-75807336/" target="_blank" class="badge badge-li">HM LinkedIn</a>
+                    </td>
+                    <td><code>Quick question...</code><br><span class="email-snippet">Hi /in/alsherman, Hope you’re doing well...</span></td>
+                    <td><code>Intro request...</code><br><span class="email-snippet">Hey alsherman, Hope you're doing well...</span></td>
+                    <td><code>Do you know...</code><br><span class="email-snippet">hey hey, /in/alsherman is hiring...</span></td>
+                </tr>
+                <tr>
+                    <td><strong>Wizard AI</strong></td>
+                    <td>Director, Finance</td>
+                    <td>
+                        <a href="https://zeus-fire-and-security.breezy.hr/p/a45759219c5b-finance-director" target="_blank" class="badge badge-job">Job Post</a><br>
+                        <a href="https://www.linkedin.com/in/stephen-andrews-211ba38/" target="_blank" class="badge badge-li">HM LinkedIn</a>
+                    </td>
+                    <td><code>Quick question...</code><br><span class="email-snippet">Hi /in/melissabridgeford, Hope you’re doing well...</span></td>
+                    <td><code>Intro request...</code><br><span class="email-snippet">Hey melissabridgeford, Hope you're doing well...</span></td>
+                    <td><code>Do you know...</code><br><span class="email-snippet">hey hey, /in/melissabridgeford is hiring...</span></td>
+                </tr>
+                <tr>
+                    <td><strong>Tomo</strong></td>
+                    <td>Director, Strategic Finance</td>
+                    <td>
+                        <a href="https://harborglobal.com/careers/jobs/director--finance-systems-technology-4999016007/" target="_blank" class="badge badge-job">Job Post</a><br>
+                        <a href="https://www.linkedin.com/in/jae-cornelssen-cpa-ca-cfa-4698a0104/" target="_blank" class="badge badge-li">HM LinkedIn</a>
+                    </td>
+                    <td><code>Quick question...</code><br><span class="email-snippet">Hi /in/guthriepaterson, Hope you’re doing well...</span></td>
+                    <td><code>Intro request...</code><br><span class="email-snippet">Hey guthriepaterson, Hope you're doing well...</span></td>
+                    <td><code>Do you know...</code><br><span class="email-snippet">hey hey, /in/guthriepaterson is hiring...</span></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 </body>
 </html>
