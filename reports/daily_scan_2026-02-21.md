@@ -3,16 +3,9 @@
 ## 🏢 High-Signal Roles (Past Companies)
 | Role | Company | Link |
 |------|---------|------|
-| Director of Finance And Operations | The Little School SF | [View](https://www.linkedin.com/jobs/view/director-of-finance-and-operations-at-the-little-school-sf-4372756569) |
-| Director of Product (Remote) | Visit.org | [View](https://www.linkedin.com/jobs/view/director-of-product-remote-at-visit-org-4369686644) |
-| Director, Agency Partnerships | Invoca | [View](https://www.linkedin.com/jobs/view/director-agency-partnerships-at-invoca-4371021674) |
-| Regional Director of Sales | Surgical Safety Technologies | [View](https://www.linkedin.com/jobs/view/regional-director-of-sales-at-surgical-safety-technologies-inc-4365077517) |
-| Director, Ad Operations | Stack Overflow | [View](https://www.linkedin.com/jobs/view/director-ad-operations-at-stack-overflow-4364843082) |
 | Head of Accounts | Thesis | [View](https://www.linkedin.com/jobs/view/head-of-accounts-at-thesis-4371658472) |
 | Head of Precast Operations | The Boring Company | [View](https://ae.linkedin.com/jobs/view/head-of-precast-operations-at-the-boring-company-4370379992) |
-| Head of Training and Certification | Guildhall | [View](https://ae.linkedin.com/jobs/view/head-of-training-and-certification-at-guildhall-the-%231-ranked-executive-search-recruitment-agency-in-dubai-uae-4371982373) |
-| Director, Strategic Finance | Engine | [View](https://www.linkedin.com/jobs/view/director-strategic-finance-at-engine-4335371501) |
-| Head of Operations - Financial Brokerage | Marlin Selection Recruitment | [View](https://ae.linkedin.com/jobs/view/head-of-operations-financial-brokerage-london-or-dubai-at-marlin-selection-recruitment-4374736220) |
+| Director of Product (Remote) | Visit.org | [View](https://www.linkedin.com/jobs/view/director-of-product-remote-at-visit-org-4369686644) |
 
 ## 🤝 Tier 1 Contact Updates: Job Changes
 | Update | Link |
