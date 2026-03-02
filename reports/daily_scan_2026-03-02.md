@@ -1,17 +1,17 @@
 # Daily Leadership & Funding Scan — March 2, 2026
 
 ## 📊 Leadership Roles by Location
-![Leadership Roles Chart](https://gobii.ai/d/.eJwlyzEOgDAIAMC_MMtQhGL9jKEFjIsubsa_O3j7PWB7nPd2OKygtHCTmLEvw5BHGhoNQU_SmhHkITDBeXn8gbOU3jixOhFytY7NIzGYxFSFVQjeD8UGHEM:1vx5x0:lDLHezPdotjejnJ9j6Cn54uJsah5eIgVzapuuPOm3No/)
+![Leadership Roles Chart](https://gobii.ai/d/.eJwlyzEOgDAIAMC_MMtQhGL9jKEFjIsubsa_O3j7PWB7nPd2OKygtHCTmlEvw5BHGhoNQU_SmhHkITDBeXn8gbOU3jixOhFytY7NIzGYxFSFVQjeD8UGHEM:1vx5x0:lDLHezPdotjejnJ9j6Cn54uJsah5eIgVzapuupOm3No/)
 
 ## 🎯 High-Signal Leadership Roles
 | Company | Role | Location | Link |
 |---------|------|----------|------|
 | **Courier Health** | RevOps Lead | New York, NY | [Apply](https://job-boards.greenhouse.io/courierhealth/jobs/5012226007) |
-| **Jewish Federation** | CFO | Remote/Hybrid | [Apply](https://job-boards.greenhouse.io/thejewishfederationsofnorthamerica/jobs/5125950008) |
+| **Jewish Federation** | CEO | Remote/Hybrid | [Apply](https://job-boards.greenhouse.io/thejewishfederationsofnorthamerica/jobs/4784707008) |
 | **Nabis** | Chief of Staff | Remote | [Apply](https://job-boards.greenhouse.io/nabis/jobs/5798361004) |
 | **Nomi Health** | Senior Controller | Salt Lake City, UT | [Apply](https://jobs.lever.co/nomihealth/e5c861a3-579c-460d-a43a-0cc30ea76e1e) |
 | **Regscale** | Director, Finance | Remote | [Apply](https://job-boards.greenhouse.io/regscale/jobs/4984378007) |
-| **SeatGeek** | COO & CRO | New York, NY | [Apply](https://job-boards.greenhouse.io/seatgeek/jobs/6105825) |
+| **SeatGeek** | COO & CRO | New York, NY | [Apply](https://job-boards.greenhouse.io/seatgeek/jobs/sf95510) |
 | **SendBird** | CRO | San Mateo, CA | [Apply](https://job-boards.greenhouse.io/sendbird/jobs/5048243004) |
 | **Shift5** | Production & Ops Mgr | Rosslyn, VA | [Apply](https://job-boards.greenhouse.io/shift5/jobs/5034221007) |
 | **Sierra Ventures** | COO & CRO | San Mateo, CA | [Apply](https://careers.sierraventures.com/) |
