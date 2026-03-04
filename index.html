@@ -1,357 +1,59 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Guild Talent Outreach Portal</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            background-color: #f4f7f6;
-            color: #333;
-        }
-        h1, h2, h3 {
-            color: #2c3e50;
-            border-bottom: 2px solid #3498db;
-            padding-bottom: 5px;
-            margin-top: 20px;
-        }
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-top: 20px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-            background-color: #fff;
-        }
-        th, td {
-            border: 1px solid #ddd;
-            padding: 10px;
-            text-align: left;
-        }
-        th {
-            background-color: #3498db;
-            color: white;
-            font-weight: bold;
-            text-transform: uppercase;
-        }
-        tr:nth-child(even) {
-            background-color: #f2f2f2;
-        }
-        tr:hover {
-            background-color: #e9f5ff;
-        }
-        .badge {
-            display: inline-block;
-            padding: 4px 8px;
-            border-radius: 12px;
-            font-size: 0.85em;
-            font-weight: bold;
-            text-align: center;
-            white-space: nowrap;
-        }
-        .badge-linkedin {
-            background-color: #0077B5;
-            color: white;
-            text-decoration: none;
-        }
-        .badge-jobpost { /* Included for completeness, though not explicitly used for a column in this iteration */
-            background-color: #28a745;
-            color: white;
-            text-decoration: none;
-        }
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        ul li {
-            background-color: #e8f0f3;
-            margin-bottom: 8px;
-            padding: 10px;
-            border-left: 5px solid #3498db;
-            border-radius: 4px;
-        }
-        .last-updated {
-            margin-top: 30px;
-            font-size: 0.9em;
-            color: #777;
-            text-align: right;
-        }
-    </style>
-</head>
-<body>
-    <h1>Guild Talent Outreach Portal</h1>
+<!DOCTYPE html><html><head><meta charset='UTF-8'><title>Guild Talent Outreach Portal</title><style>body { font-family: Arial, sans-serif; margin: 20px; line-height: 1.6; color: #333; } h1 { color: #2c3e50; border-bottom: 2px solid #eee; padding-bottom: 10px; } .container { max-width: 1200px; margin: auto; } table { border-collapse: collapse; width: 100%; margin-top: 20px; box-shadow: 0 1px 3px rgba(0,0,0,0.2); } th, td { border: 1px solid #ddd; padding: 12px; text-align: left; } th { background-color: #f8f9fa; font-weight: bold; color: #555; } tr:nth-child(even) { background-color: #f9f9f9; } tr:hover { background-color: #f1f1f1; } a { color: #3498db; text-decoration: none; font-weight: 500; } a:hover { text-decoration: underline; color: #2980b9; } .email-snippet { font-size: 0.85em; color: #666; max-width: 250px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; display: block; } .badge { display: inline-block; padding: 2px 8px; border-radius: 12px; font-size: 0.75em; font-weight: bold; text-transform: uppercase; margin-bottom: 4px; } .badge-job { background-color: #e1f5fe; color: #01579b; } .badge-li { background-color: #e8f5e9; color: #1b5e20; } h2 { margin-top: 40px; color: #2c3e50; border-bottom: 1px solid #eee; padding-bottom: 8px; }</style></head><body><div class='container'><h1>🎯 Guild Talent Outreach Portal</h1><p><strong>Last Updated:</strong> 2026-03-04</p><p>Centralized dashboard for job links, LinkedIn profiles, and outreach drafts for 30 qualified leads.</p><table><thead><tr><th>Company</th><th>Job Title</th><th>Quick Links</th><th>HM Outreach</th><th>Intro Request</th><th>'Do You Know'</th></tr></thead><tbody>
+<tr><td><strong>Avalanche Technology</strong></td><td>Senior Finance Lead (implied)</td><td><a href='https://careers.avalanche-technology.com/' class='badge badge-job'>Job Post</a><br><a href='https://www.linkedin.com/in/jennifer-catlett-6953b3b1' class='badge badge-li'>HM Profile</a></td><td><span class='email-snippet'>Hi Jennifer, saw Avalanche is hiring...</span></td><td><span class='email-snippet'>Intro request: Senior Finance Lead...</span></td><td><span class='email-snippet'>Do you know Jennifer @Avalanche?</span></td></tr>
+<tr><td><strong>Vālenz Health</strong></td><td>VP, Commercial Operations</td><td><a href='https://valenz.applytojob.com/apply/5NCQuYK812/VP-Commercial-Operations' class='badge badge-job'>Job Post</a><br><a href='https://www.linkedin.com/in/christopher-harber-3116153761' class='badge badge-li'>HM Profile</a></td><td><span class='email-snippet'>Hi Christopher, saw Vālenz is hiring...</span></td><td><span class='email-snippet'>Intro request: VP, Commercial Ops...</span></td><td><span class='email-snippet'>Do you know Christopher @Vālenz?</span></td></tr>
+<tr><td><strong>Tract Capital</strong></td><td>Vice President of Finance</td><td><a href='https://ats.rippling.com/en-US/tract-capital/jobs/592d6b25-61c0-446f-b3a4-53d5ef2987e8' class='badge badge-job'>Job Post</a><br><a href='https://www.linkedin.com/p/Alberto-Acosta/5228979664' class='badge badge-li'>HM Profile</a></td><td><span class='email-snippet'>Hi Alberto, saw Tract Capital is hiring...</span></td><td><span class='email-snippet'>Intro request: VP of Finance...</span></td><td><span class='email-snippet'>Do you know Alberto @Tract Capital?</span></td></tr>
+<tr><td><strong>Infinity Constellation</strong></td><td>Head of Finance</td><td><a href='https://www.infinityconstellation.com/openings?ashby_jid=0ab8baf2-6e8a-4529-bace-581ce974ab9b' class='badge badge-job'>Job Post</a><br><a href='https://www.linkedin.com/in/francispedraza' class='badge badge-li'>HM Profile</a></td><td><span class='email-snippet'>Hi Francis, saw Infinity is hiring...</span></td><td><span class='email-snippet'>Intro request: Head of Finance...</span></td><td><span class='email-snippet'>Do you know Francis @Infinity?</span></td></tr>
+<tr><td><strong>Bolt Graphics</strong></td><td>Controller</td><td><a href='https://ats.rippling.com/en-US/bolt-graphics/jobs/c9519c44-e8cd-46e8-9cde-f3bf91d999f3' class='badge badge-job'>Job Post</a></td><td><span class='email-snippet'>Hi Hiring, saw Bolt Graphics is hiring...</span></td><td><span class='email-snippet'>Intro request: Controller...</span></td><td><span class='email-snippet'>Do you know Hiring @Bolt Graphics?</span></td></tr>
+<tr><td><strong>Ridgeline</strong></td><td>Head of Finance</td><td><a href='https://job-boards.greenhouse.io/ridgeline/jobs/7638738003' class='badge badge-job'>Job Post</a><br><a href='https://www.linkedin.com/in/richharkey' class='badge badge-li'>HM Profile</a></td><td><span class='email-snippet'>Hi Richard, saw Ridgeline is hiring...</span></td><td><span class='email-snippet'>Intro request: Head of Finance...</span></td><td><span class='email-snippet'>Do you know Richard @Ridgeline?</span></td></tr>
+<tr><td><strong>Sent</strong></td><td>VP Finance</td><td><a href='https://www.sent.dm/en/company/careers' class='badge badge-job'>Job Post</a><br><a href='https://www.linkedin.com/in/vataj' class='badge badge-li'>HM Profile</a></td><td><span class='email-snippet'>Hi Daniel, saw Sent is hiring...</span></td><td><span class='email-snippet'>Intro request: VP Finance...</span></td><td><span class='email-snippet'>Do you know Daniel @Sent?</span></td></tr>
+<tr><td><strong>Wonder Project</strong></td><td>VP, Strategy and FP&A</td><td><a href='https://ats.rippling.com/the-wonder-project/jobs/fca56e55-75b8-47b7-a6b0-c8eb2c2630f8' class='badge badge-job'>Job Post</a><br><a href='https://www.linkedin.com/in/neil-varghese-33727016' class='badge badge-li'>HM Profile</a></td><td><span class='email-snippet'>Hi Neil, saw Wonder Project is hiring...</span></td><td><span class='email-snippet'>Intro request: VP, Strategy...</span></td><td><span class='email-snippet'>Do you know Neil @Wonder Project?</span></td></tr>
+<tr><td><strong>Meow Wolf</strong></td><td>Senior Manager, Corporate Finance and FP&A</td><td><a href='https://meowwolf.wd1.myworkdayjobs.com/en-US/MeowWolf/details/Manager--Corporate-Finance-and-FP-A_JR101786' class='badge badge-job'>Job Post</a><br><a href='https://www.linkedin.com/in/michael-kopelman-847a963' class='badge badge-li'>HM Profile</a></td><td><span class='email-snippet'>Hi Michael, saw Meow Wolf is hiring...</span></td><td><span class='email-snippet'>Intro request: Sr Manager, Finance...</span></td><td><span class='email-snippet'>Do you know Michael @Meow Wolf?</span></td></tr>
+<tr><td><strong>Modal</strong></td><td>VP Finance</td><td><a href='https://jobs.ashbyhq.com/modal/5ac02bd3-a7ac-4e3d-b9c2-cc1abede0ae3' class='badge badge-job'>Job Post</a><br><a href='https://www.linkedin.com/in/chris-prinz' class='badge badge-li'>HM Profile</a></td><td><span class='email-snippet'>Hi Chris, saw Modal is hiring...</span></td><td><span class='email-snippet'>Intro request: VP Finance...</span></td><td><span class='email-snippet'>Do you know Chris @Modal?</span></td></tr>
+<tr><td><strong>Rezilient</strong></td><td>Head of Commercial Finance</td><td><a href='https://apply.workable.com/rezilient/j/4F3E359FAD/' class='badge badge-job'>Job Post</a></td><td><span class='email-snippet'>Hi Brad, saw Rezilient is hiring...</span></td><td><span class='email-snippet'>Intro request: Head of Finance...</span></td><td><span class='email-snippet'>Do you know Brad @Rezilient?</span></td></tr>
+<tr><td><strong>US Mobile</strong></td><td>Chief of Staff</td><td><a href='https://jobs.lever.co/USMobile/cfb8df0a-5bad-41a4-bdd8-81135fba9992' class='badge badge-job'>Job Post</a><br><a href='https://www.linkedin.com/in/ahmednkhattak' class='badge badge-li'>HM Profile</a></td><td><span class='email-snippet'>Hi Ahmed, saw US Mobile is hiring...</span></td><td><span class='email-snippet'>Intro request: Chief of Staff...</span></td><td><span class='email-snippet'>Do you know Ahmed @US Mobile?</span></td></tr>
+<tr><td><strong>Zero Hash</strong></td><td>Director of Strategic Finance</td><td><a href='https://zero-hash.breezy.hr/p/be5673846f6e-director-of-strategic-finance' class='badge badge-job'>Job Post</a><br><a href='https://www.linkedin.com/in/adam-j-berg' class='badge badge-li'>HM Profile</a></td><td><span class='email-snippet'>Hi Adam, saw Zero Hash is hiring...</span></td><td><span class='email-snippet'>Intro request: Director, Finance...</span></td><td><span class='email-snippet'>Do you know Adam @Zero Hash?</span></td></tr>
+<tr><td><strong>BoxPower</strong></td><td>VP of Business Operations</td><td><a href='https://boxpower.bamboohr.com/careers/99' class='badge badge-job'>Job Post</a></td><td><span class='email-snippet'>Hi Anderson, saw BoxPower is hiring...</span></td><td><span class='email-snippet'>Intro request: VP, Operations...</span></td><td><span class='email-snippet'>Do you know Anderson @BoxPower?</span></td></tr>
+<tr><td><strong>Tuvoli</strong></td><td>Controller</td><td><a href='https://www.tuvoli.com/careers' class='badge badge-job'>Job Post</a><br><a href='https://www.linkedin.com/in/jmfvoss' class='badge badge-li'>HM Profile</a></td><td><span class='email-snippet'>Hi Joseph, saw Tuvoli is hiring...</span></td><td><span class='email-snippet'>Intro request: Controller...</span></td><td><span class='email-snippet'>Do you know Joseph @Tuvoli?</span></td></tr>
+<tr><td><strong>Avalanche Technology</strong></td><td>Senior Finance Lead (implied)</td><td><a href='https://careers.avalanche-technology.com/' class='badge badge-job'>Job Post</a><br><a href='https://www.linkedin.com/in/jennifer-catlett-6953b3b1' class='badge badge-li'>HM Profile</a></td><td><span class='email-snippet'>Hi Jennifer, saw Avalanche is hiring...</span></td><td><span class='email-snippet'>Intro request: Senior Finance Lead...</span></td><td><span class='email-snippet'>Do you know Jennifer @Avalanche?</span></td></tr>
+<tr><td><strong>Vālenz Health</strong></td><td>VP, Commercial Operations</td><td><a href='https://valenz.applytojob.com/apply/5NCQuYK812/VP-Commercial-Operations' class='badge badge-job'>Job Post</a><br><a href='https://www.linkedin.com/in/christopher-harber-3116153761' class='badge badge-li'>HM Profile</a></td><td><span class='email-snippet'>Hi Christopher, saw Vālenz is hiring...</span></td><td><span class='email-snippet'>Intro request: VP, Commercial Ops...</span></td><td><span class='email-snippet'>Do you know Christopher @Vālenz?</span></td></tr>
+<tr><td><strong>Tract Capital</strong></td><td>Vice President of Finance</td><td><a href='https://ats.rippling.com/en-US/tract-capital/jobs/592d6b25-61c0-446f-b3a4-53d5ef2987e8' class='badge badge-job'>Job Post</a><br><a href='https://www.linkedin.com/p/Alberto-Acosta/5228979664' class='badge badge-li'>HM Profile</a></td><td><span class='email-snippet'>Hi Alberto, saw Tract Capital is hiring...</span></td><td><span class='email-snippet'>Intro request: VP of Finance...</span></td><td><span class='email-snippet'>Do you know Alberto @Tract Capital?</span></td></tr>
+<tr><td><strong>Infinity Constellation</strong></td><td>Head of Finance</td><td><a href='https://www.infinityconstellation.com/openings?ashby_jid=0ab8baf2-6e8a-4529-bace-581ce974ab9b' class='badge badge-job'>Job Post</a><br><a href='https://www.linkedin.com/in/francispedraza' class='badge badge-li'>HM Profile</a></td><td><span class='email-snippet'>Hi Francis, saw Infinity is hiring...</span></td><td><span class='email-snippet'>Intro request: Head of Finance...</span></td><td><span class='email-snippet'>Do you know Francis @Infinity?</span></td></tr>
+<tr><td><strong>Bolt Graphics</strong></td><td>Controller</td><td><a href='https://ats.rippling.com/en-US/bolt-graphics/jobs/c9519c44-e8cd-46e8-9cde-f3bf91d999f3' class='badge badge-job'>Job Post</a></td><td><span class='email-snippet'>Hi Hiring, saw Bolt Graphics is hiring...</span></td><td><span class='email-snippet'>Intro request: Controller...</span></td><td><span class='email-snippet'>Do you know Hiring @Bolt Graphics?</span></td></tr>
+<tr><td><strong>Ridgeline</strong></td><td>Head of Finance</td><td><a href='https://job-boards.greenhouse.io/ridgeline/jobs/7638738003' class='badge badge-job'>Job Post</a><br><a href='https://www.linkedin.com/in/richharkey' class='badge badge-li'>HM Profile</a></td><td><span class='email-snippet'>Hi Richard, saw Ridgeline is hiring...</span></td><td><span class='email-snippet'>Intro request: Head of Finance...</span></td><td><span class='email-snippet'>Do you know Richard @Ridgeline?</span></td></tr>
+<tr><td><strong>Sent</strong></td><td>VP Finance</td><td><a href='https://www.sent.dm/en/company/careers' class='badge badge-job'>Job Post</a><br><a href='https://www.linkedin.com/in/vataj' class='badge badge-li'>HM Profile</a></td><td><span class='email-snippet'>Hi Daniel, saw Sent is hiring...</span></td><td><span class='email-snippet'>Intro request: VP Finance...</span></td><td><span class='email-snippet'>Do you know Daniel @Sent?</span></td></tr>
+<tr><td><strong>Wonder Project</strong></td><td>VP, Strategy and FP&A</td><td><a href='https://ats.rippling.com/the-wonder-project/jobs/fca56e55-75b8-47b7-a6b0-c8eb2c2630f8' class='badge badge-job'>Job Post</a><br><a href='https://www.linkedin.com/in/neil-varghese-33727016' class='badge badge-li'>HM Profile</a></td><td><span class='email-snippet'>Hi Neil, saw Wonder Project is hiring...</span></td><td><span class='email-snippet'>Intro request: VP, Strategy...</span></td><td><span class='email-snippet'>Do you know Neil @Wonder Project?</span></td></tr>
+<tr><td><strong>Meow Wolf</strong></td><td>Senior Manager, Corporate Finance and FP&A</td><td><a href='https://meowwolf.wd1.myworkdayjobs.com/en-US/MeowWolf/details/Manager--Corporate-Finance-and-FP-A_JR101786' class='badge badge-job'>Job Post</a><br><a href='https://www.linkedin.com/in/michael-kopelman-847a963' class='badge badge-li'>HM Profile</a></td><td><span class='email-snippet'>Hi Michael, saw Meow Wolf is hiring...</span></td><td><span class='email-snippet'>Intro request: Sr Manager, Finance...</span></td><td><span class='email-snippet'>Do you know Michael @Meow Wolf?</span></td></tr>
+<tr><td><strong>Modal</strong></td><td>VP Finance</td><td><a href='https://jobs.ashbyhq.com/modal/5ac02bd3-a7ac-4e3d-b9c2-cc1abede0ae3' class='badge badge-job'>Job Post</a><br><a href='https://www.linkedin.com/in/chris-prinz' class='badge badge-li'>HM Profile</a></td><td><span class='email-snippet'>Hi Chris, saw Modal is hiring...</span></td><td><span class='email-snippet'>Intro request: VP Finance...</span></td><td><span class='email-snippet'>Do you know Chris @Modal?</span></td></tr>
+<tr><td><strong>Rezilient</strong></td><td>Head of Commercial Finance</td><td><a href='https://apply.workable.com/rezilient/j/4F3E359FAD/' class='badge badge-job'>Job Post</a></td><td><span class='email-snippet'>Hi Brad, saw Rezilient is hiring...</span></td><td><span class='email-snippet'>Intro request: Head of Finance...</span></td><td><span class='email-snippet'>Do you know Brad @Rezilient?</span></td></tr>
+<tr><td><strong>US Mobile</strong></td><td>Chief of Staff</td><td><a href='https://jobs.lever.co/USMobile/cfb8df0a-5bad-41a4-bdd8-81135fba9992' class='badge badge-job'>Job Post</a><br><a href='https://www.linkedin.com/in/ahmednkhattak' class='badge badge-li'>HM Profile</a></td><td><span class='email-snippet'>Hi Ahmed, saw US Mobile is hiring...</span></td><td><span class='email-snippet'>Intro request: Chief of Staff...</span></td><td><span class='email-snippet'>Do you know Ahmed @US Mobile?</span></td></tr>
+<tr><td><strong>Zero Hash</strong></td><td>Director of Strategic Finance</td><td><a href='https://zero-hash.breezy.hr/p/be5673846f6e-director-of-strategic-finance' class='badge badge-job'>Job Post</a><br><a href='https://www.linkedin.com/in/adam-j-berg' class='badge badge-li'>HM Profile</a></td><td><span class='email-snippet'>Hi Adam, saw Zero Hash is hiring...</span></td><td><span class='email-snippet'>Intro request: Director, Finance...</span></td><td><span class='email-snippet'>Do you know Adam @Zero Hash?</span></td></tr>
+<tr><td><strong>BoxPower</strong></td><td>VP of Business Operations</td><td><a href='https://boxpower.bamboohr.com/careers/99' class='badge badge-job'>Job Post</a></td><td><span class='email-snippet'>Hi Anderson, saw BoxPower is hiring...</span></td><td><span class='email-snippet'>Intro request: VP, Operations...</span></td><td><span class='email-snippet'>Do you know Anderson @BoxPower?</span></td></tr>
+<tr><td><strong>Tuvoli</strong></td><td>Controller</td><td><a href='https://www.tuvoli.com/careers' class='badge badge-job'>Job Post</a><br><a href='https://www.linkedin.com/in/jmfvoss' class='badge badge-li'>HM Profile</a></td><td><span class='email-snippet'>Hi Joseph, saw Tuvoli is hiring...</span></td><td><span class='email-snippet'>Intro request: Controller...</span></td><td><span class='email-snippet'>Do you know Joseph @Tuvoli?</span></td></tr>
+</tbody></table>
 
-    <h2>Qualified Leads</h2>
-    <table>
-        <thead>
-            <tr>
-                <th>Company</th>
-                <th>Job Title</th>
-                <th>HM Name</th>
-                <th>HM LinkedIn</th>
-                <th>Outreach Snippet</th>
-                <th>Intro Request</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Heron Power</td>
-                <td>Controller</td>
-                <td>Drew Baglino</td>
-                <td><span class="badge badge-linkedin">LinkedIn Profile</span></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>Lydian</td>
-                <td>Director of Finance</td>
-                <td>Mikhail Rodkin</td>
-                <td><span class="badge badge-linkedin">LinkedIn Profile</span></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>Ombud</td>
-                <td>Controller</td>
-                <td>Thad Eby</td>
-                <td><span class="badge badge-linkedin">LinkedIn Profile</span></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>Wonder Project</td>
-                <td>VP Strategy</td>
-                <td>Neil Varghese</td>
-                <td><span class="badge badge-linkedin">LinkedIn Profile</span></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>Yendo</td>
-                <td>VP Operations</td>
-                <td>Jordan Miller</td>
-                <td><span class="badge badge-linkedin">LinkedIn Profile</span></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>Avalanche Technology</td>
-                <td>Finance Lead</td>
-                <td>Jennifer Catlett</td>
-                <td><span class="badge badge-linkedin">LinkedIn Profile</span></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>Bolt Graphics</td>
-                <td>Controller</td>
-                <td>Darwesh Singh</td>
-                <td><span class="badge badge-linkedin">LinkedIn Profile</span></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>BoxPower</td>
-                <td>VP Business Ops</td>
-                <td>Anderson Barkow</td>
-                <td><span class="badge badge-linkedin">LinkedIn Profile</span></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>Flexcar</td>
-                <td>Controller</td>
-                <td>Ryan Quinlan</td>
-                <td><span class="badge badge-linkedin">LinkedIn Profile</span></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>Infinity Constellation</td>
-                <td>Head of Finance</td>
-                <td>Francis Pedraza</td>
-                <td><span class="badge badge-linkedin">LinkedIn Profile</span></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>Meow Wolf</td>
-                <td>Sr Mgr Corp Finance</td>
-                <td>Michael Kopelman</td>
-                <td><span class="badge badge-linkedin">LinkedIn Profile</span></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>Modal</td>
-                <td>VP Finance</td>
-                <td>Chris Prinz</td>
-                <td><span class="badge badge-linkedin">LinkedIn Profile</span></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>Rezilient</td>
-                <td>Head of Commercial Finance</td>
-                <td>Brad Adams</td>
-                <td><span class="badge badge-linkedin">LinkedIn Profile</span></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>Ridgeline</td>
-                <td>Head of Finance</td>
-                <td>Richard Harkey</td>
-                <td><span class="badge badge-linkedin">LinkedIn Profile</span></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>Sent</td>
-                <td>VP Finance</td>
-                <td>Daniel Vataj</td>
-                <td><span class="badge badge-linkedin">LinkedIn Profile</span></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>Teachstone</td>
-                <td>VP Growth Ops</td>
-                <td>Karlo Young</td>
-                <td><span class="badge badge-linkedin">LinkedIn Profile</span></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>Tract Capital</td>
-                <td>VP Finance</td>
-                <td>Alberto Acosta</td>
-                <td><span class="badge badge-linkedin">LinkedIn Profile</span></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>Valenz Health</td>
-                <td>VP Commercial Ops</td>
-                <td>Christopher Harber</td>
-                <td><span class="badge badge-linkedin">LinkedIn Profile</span></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>Pacific Fusion</td>
-                <td>Strategic Finance Lead</td>
-                <td>Will Regan</td>
-                <td><span class="badge badge-linkedin">LinkedIn Profile</span></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>Tools for Humanity</td>
-                <td>Global Head of FP&A</td>
-                <td>Ivan Makarov</td>
-                <td><span class="badge badge-linkedin">LinkedIn Profile</span></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>Hut 8</td>
-                <td>Chief of Staff</td>
-                <td>Asher Genoot</td>
-                <td><span class="badge badge-linkedin">LinkedIn Profile</span></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>Placer.ai</td>
-                <td>VP Finance</td>
-                <td>Dean Neese</td>
-                <td><span class="badge badge-linkedin">LinkedIn Profile</span></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>Heirloom Carbon</td>
-                <td>Controller</td>
-                <td>Julie Liao</td>
-                <td><span class="badge badge-linkedin">LinkedIn Profile</span></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>Scope3</td>
-                <td>Global Controller</td>
-                <td>Ardi Judanto</td>
-                <td><span class="badge badge-linkedin">LinkedIn Profile</span></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>Garner Health</td>
-                <td>Director Strategy & Ops</td>
-                <td>Andie Paredes</td>
-                <td><span class="badge badge-linkedin">LinkedIn Profile</span></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>Monogram Health</td>
-                <td>Director of Finance</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>Auterion</td>
-                <td>Finance Lead</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>Tuvoli</td>
-                <td>Controller</td>
-                <td>Joseph M. Voss</td>
-                <td><span class="badge badge-linkedin">LinkedIn Profile</span></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>Zero Hash</td>
-                <td>Director Strategic Finance</td>
-                <td>Adam Berg</td>
-                <td><span class="badge badge-linkedin">LinkedIn Profile</span></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>US Mobile</td>
-                <td>Chief of Staff</td>
-                <td>Ahmed Khattak</td>
-                <td><span class="badge badge-linkedin">LinkedIn Profile</span></td>
-                <td></td>
-                <td></td>
-            </tr>
-        </tbody>
-    </table>
+<h2>🤝 BizDev & Network Mapping</h2>
+<p>Jamie's direct connections and mutual investor paths for high-priority leads.</p>
 
-    <h2>BizDev & Network Mapping</h2>
-    <h3>Hiring Manager Connections</h3>
-    <ul>
-        <li>Ryan Quinlan (Flexcar)</li>
-        <li>Anderson Barkow (BoxPower)</li>
-        <li>Michael Kopelman (Meow Wolf)</li>
-        <li>Richard Harkey (Ridgeline)</li>
-    </ul>
-    <h3>Mutual Investor Connections</h3>
-    <ul>
-        <li>Cassady Churchill (a16z) for Heron Power</li>
-        <li>Rebecca Kaden (USV) for Wonder Project</li>
-    </ul>
+<h3>Hiring Manager Connections (Jamie's Past Clients)</h3>
+<table><thead><tr><th>Name</th><th>Company</th><th>Connection Path</th></tr></thead><tbody>
+<tr><td><strong>Jaymie Wahlen</strong></td><td>Dscout</td><td>Hiring company is a past RecruiterFlow client (ID: 11477).</td></tr>
+<tr><td><strong>June Choong</strong></td><td>Bluefish</td><td>Hiring company is a past RecruiterFlow client (ID: 37717).</td></tr>
+<tr><td><strong>Will Regan</strong></td><td>Pacific Fusion</td><td>Hiring company is a past RecruiterFlow client.</td></tr>
+<tr><td><strong>Julie Liao</strong></td><td>Heirloom</td><td>Hiring company is a past RecruiterFlow client.</td></tr>
+<tr><td><strong>Dean Neese</strong></td><td>Placer.ai</td><td>Hiring company is a past RecruiterFlow client.</td></tr>
+<tr><td><strong>Santiago</strong></td><td>Inversion</td><td>Hiring company is a past RecruiterFlow client.</td></tr>
+<tr><td><strong>Jon Lerner</strong></td><td>CoinTracker</td><td>Hiring company is a past RecruiterFlow client.</td></tr>
+<tr><td><strong>Chihiro Saito</strong></td><td>Kyverna</td><td>Hiring company is a past RecruiterFlow client.</td></tr>
+</tbody></table>
 
-    <p class="last-updated">Last Updated: 2026-03-03</p>
-</body>
-</html>
+<h3>Mutual Investor Connections (VCs)</h3>
+<table><thead><tr><th>VC Firm</th><th>Key Partner</th><th>Connection Path</th></tr></thead><tbody>
+<tr><td><strong>Redpoint Ventures</strong></td><td>Andie Paredes</td><td>Warm path via Andie Paredes (Talent Network). Investor in Garner Health.</td></tr>
+<tr><td><strong>Andreessen Horowitz</strong></td><td>Cassady Churchill</td><td>Warm path via Cassady Churchill (Talent). Investor in Heron Power and Tools for Humanity.</td></tr>
+<tr><td><strong>Venrock</strong></td><td>Isabella Charbeneau</td><td>Warm path via Isabella Charbeneau. Investor in Scope3 and Ombud.</td></tr>
+<tr><td><strong>Sway Ventures</strong></td><td>Matt Birnbaum</td><td>Warm path via Matt Birnbaum. Investor in Affinity.co.</td></tr>
+<tr><td><strong>Union Square Ventures</strong></td><td>Rebecca Kaden</td><td>Investor in Tutor Intelligence is a RecruiterFlow client.</td></tr>
+<tr><td><strong>Oak HC/FT</strong></td><td>Andrew Adams</td><td>Investor in Firefly Health is a RecruiterFlow client.</td></tr>
+<tr><td><strong>Spark Capital</strong></td><td>Spark Partner</td><td>Investor in Inversion is a RecruiterFlow client.</td></tr>
+</tbody></table>
+</div></body></html>
