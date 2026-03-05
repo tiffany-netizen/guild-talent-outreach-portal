@@ -18,15 +18,20 @@
 | **Luminai** | Commercial Chief of Staff | San Mateo, CA | [Apply](https://jobs.ashbyhq.com/luminai/21b75e9e-45fe-4242-9578-dbf073c2d081/application) |
 | **Nomi Health** | Senior Controller | Salt Lake City, UT | [Apply](https://jobs.lever.co/nomihealth/e5c861a3-579c-460d-a43a-0cc30ea76e1e/apply) |
 | **Nomi Health** | SVP of FP&A | Salt Lake City, UT | [Apply](https://jobs.lever.co/nomihealth/e5c861a3-579c-460d-a43a-0cc30ea76e1e/apply) |
+| **ResortPass** | VP of Finance | New York | [Apply](https://job-boards.greenhouse.io/resortpass/jobs/4624206007) |
+| **Jewish Federation** | CFO | New York City | [Apply](https://job-boards.greenhouse.io/thejewishfederationsofnorthamerica/jobs/5054418008) |
+| **Osmo** | Controller | Elizabeth, NJ | [Apply](https://jobs.ashbyhq.com/osmo/3ca1bc19-10dd-42d8-ba1a-ae72fa2413ff/application) |
 
 ## 💰 Funding News
 - **Castelion**: $350M Series B (March 5, 2026)
 - **Northwood Space**: $100M Series B (March 5, 2026)
 
-## 👤 Network Activity (Tier 1)
-- **Michael Byrne**: Potential new role announcement detected.
-- **Shuva Chakraborty**: Potential new role announcement detected.
-*(Verification in progress)*
+## 👥 Network Activity (Tier 1)
+- **Michael Byrne**: Checked; last job change was April 2025 (Trading 212).
+- **Shuva Chakraborty**: Checked; last job change was Jan 2024 (ID.me).
+- **Tiffany Chandra**: Checked; last job change was 2021 (MuleSoft).
+- **Dale Chang**: Active sharing content; no recent job change detected.
+- **Cassie Leemans**: Active sharing content; no recent job change detected.
 
 ---
-*Batch 5 scan is currently in progress. 200+ companies scanned today.*
+*Batch 5 scan complete (250 companies). 18 verified roles found today.*
