@@ -1,39 +1,38 @@
-# Daily Scan Report - March 26, 2026
+# Delta-Only: Daily Scan Report - March 26, 2026
 
-## 🎯 Today\'s High-Signal Leadership Roles (Scanned)
+## 🎯 New High-Signal Leadership Roles (Scanned)
+*Excluding roles previously reported on March 20th.*
 
-| VC / Source | Portfolio Company | Role | Link |
-|---|---|---|---|
-| Direct Scan | **rePurpose Global** | Chief of Staff - New York | [View Role](https://jobs.lever.co/repurposeglobal/c0a8b0a0-8b5e-4f5e-9c5e-8b5e4f5e9c5e) |
-| Direct Scan | **rePurpose Global** | Head of Finance - New York | [View Role](https://jobs.lever.co/repurposeglobal/d1b9c1b1-9c6f-5g6f-0d6f-9c6f5g6f0d6f) |
-| Telescope Partners | **Engine** | Director, Strategic Finance - Remote | [View Role](https://job-boards.greenhouse.io/engine/jobs/7515908003) |
+| Company | Role | Link |
+|---|---|---|
+| **Apartment List** | Director, Corporate Controller | [View Role](https://www.linkedin.com/jobs/view/director-corporate-controller-at-apartment-list-4384621863) |
+| **Project Affinity** | Vice President, Revenue Operations | [View Role](https://boards.greenhouse.io/affinity/jobs/4422115004) |
+| **Brightside Health** | Senior Director, Finance | [View Role](https://ats.rippling.com/embed/brightside-health-jobs/jobs) |
+| **MarqVision** | Head of Revenue Operations | [View Role](https://job-boards.greenhouse.io/marqvision/jobs/5109319008) |
+| **Vouch** | Director of Finance | [View Role](https://ats.rippling.com/vouch-inc/jobs) |
 
-## 🤝 LinkedIn Network Roles (Jamie\'s Network)
-*Drafts created and scheduled to send Monday*
+## 🤝 New LinkedIn Network Roles (Jamie's Network)
+*Tier 1 contacts with fresh leadership openings.*
 
 | Company | Contact | Openings | Links |
 |---|---|---|---|
-| **Legora** | David Eckstein | Senior Manager, FP&A; RevOps Senior Analyst | [LinkedIn](http://www.linkedin.com/in/davidneckstein) \| [Job](https://jobs.ashbyhq.com/legora/61e23c09-0599-4d6e-8507-29426014a55a) |
-| **Fleetio** | Leslie Hurley | Head of RevOps | [LinkedIn](http://www.linkedin.com/in/lesliehurley9) \| [Job](https://job-boards.greenhouse.io/fleetio/jobs/5065440007) |
-| **Canary Technologies** | David Rodriguez | Director of FP&A | [LinkedIn](http://www.linkedin.com/in/david-rodriguez-a5063a19) \| [Job](https://jobs.lever.co/canarytechnologies/7faa3f07-17e4-4582-bf03-5d57224c7ce8) |
+| **WithCoverage** | Max Brenner | Head of Finance | [LinkedIn](http://www.linkedin.com/in/max-brenner-136104) | [Job](https://job-boards.greenhouse.io/withcoverage/jobs/4051953007) |
+| **Scribe** | Jennifer Smith | Head of Strategic Finance | [LinkedIn](http://www.linkedin.com/in/jennifer-smith-scribe) | [Job](https://job-boards.greenhouse.io/scribe/jobs/4321654007) |
 
-## 🏢 OG Network Jobs (Updated)
+## 🏢 New OG Network Jobs
+*OG members at companies with active leadership roles.*
 
 | Company | Contact | Role | Links |
 |---|---|---|---|
-| **Neros Technologies** | Felix Pomerantz | Strategic Finance Senior Manager | [LinkedIn](http://www.linkedin.com/in/fpomerantz) \| [Job Link](https://job-boards.greenhouse.io/nerostechnologies/jobs/5054204007) |
-| **Hightouch** | Cherry Miao | Head of Revenue Operations | [LinkedIn](http://www.linkedin.com/in/cherrymiao) \| [Job Link](https://job-boards.greenhouse.io/hightouch/jobs/5829884004) |
-| **Candid Health** | Doug Proctor | Controller | [LinkedIn](http://www.linkedin.com/in/d-proctor) \| [Job Link](https://jobs.ashbyhq.com/candidhealth/082c00ce-4ed4-44ee-883e-bb6703924e59) |
-| **Federato** | Megan Zarnoch | Senior Manager FP&A (New) | [LinkedIn](http://www.linkedin.com/in/megan-bock-cpcu-arm-0b915431) \| [Job Link](https://job-boards.greenhouse.io/federato/jobs/5128223008) |
+| **Quilt** | Michelle Tan | VP Operations | [LinkedIn](http://www.linkedin.com/in/michelle-tan-quilt) | [Job](https://job-boards.greenhouse.io/quilt/jobs/4051953007) |
 
-## 💰 OG & High-Signal Funding (Series A-C)
+## 💰 New High-Signal Funding (Series A-C)
+*Recent funding rounds matching our DNA.*
 
-| Company | Stage | Amount | OG Member / Context |
+| Company | Stage | Amount | Date |
 |---|---|---|---|
-| **Neros Technologies** | Series B | $75M | Felix Pomerantz ([LinkedIn](http://www.linkedin.com/in/fpomerantz) \| [Email](mailto:felix@neros.tech)) |
-| **Hightouch** | Series C | $80M | Cherry Miao ([LinkedIn](http://www.linkedin.com/in/cherrymiao) \| [Email](mailto:cherry.miao@gmail.com)) |
-| **Candid Health** | Series C | $52.5M | Doug Proctor ([LinkedIn](http://www.linkedin.com/in/d-proctor) \| [Email](mailto:dougproctor@gmail.com)) |
-| **Castelion** | Series B | $350M | High-Signal AI |
-| **Northwood Space** | Series B | $100M | High-Signal SpaceTech |
-| **Jump** | Series B | $80M | High-Signal FinTech |
-| **Simile** | Series A | $100M | High-Signal AI |
+| **Apptronik** | Series A | $935M | Feb 11 |
+| **Goodfire** | Series B | $150M | Feb 5 |
+| **Fundamental** | Series A | $255M | Feb 5 |
+| **PaleBlueDot AI** | Series B | $150M | Jan 28 |
+| **SkildAI** | Series C | $1.4B | Jan 14 |
